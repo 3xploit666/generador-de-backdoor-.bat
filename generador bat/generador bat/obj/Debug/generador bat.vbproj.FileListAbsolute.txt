@@ -1,0 +1,14 @@
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Debug\generador bat.exe.config
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Debug\generador bat.exe
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Debug\generador bat.pdb
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Debug\generador bat.xml
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador_bat.Form1.resources
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador_bat.Resources.resources
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.vbproj.GenerateResource.cache
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.vbproj.CoreCompileInputs.cache
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.exe
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.xml
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.pdb
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Debug\AlphaBlendTextBox.dll
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.vbprojAssemblyReference.cache
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Debug\generador bat.vbproj.CopyComplete

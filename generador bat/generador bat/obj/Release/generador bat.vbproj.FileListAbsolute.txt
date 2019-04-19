@@ -1,0 +1,14 @@
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Release\generador bat.exe.config
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Release\generador bat.exe
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Release\generador bat.pdb
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Release\generador bat.xml
+C:\Users\Anony\source\repos\generador bat\generador bat\bin\Release\AlphaBlendTextBox.dll
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador_bat.Form1.resources
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador_bat.Resources.resources
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.vbproj.GenerateResource.cache
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.vbproj.CoreCompileInputs.cache
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.vbproj.CopyComplete
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.exe
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.xml
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.pdb
+C:\Users\Anony\source\repos\generador bat\generador bat\obj\Release\generador bat.vbprojAssemblyReference.cache

